@@ -31,7 +31,7 @@ BOARD_FAMILY := celox
 -include device/samsung/msm8660-common/BoardConfigCommon.mk
 
 # Kernel toolchain
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3/bin/arm-eabi-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 
 # Build rom with 4.6
 TARGET_GCC_VERSION := 4.6
